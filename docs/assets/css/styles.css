@@ -1,0 +1,175 @@
+.navbar.navbar-light.navbar-expand-md {
+  background: #685F74;
+}
+
+.jumbotron {
+  background: url(/assets/img/portadaAKC.png?h=d0153ce9d2fea52acde7dbfd55f53d0b);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+#navcol-1 a {
+  color: #fff;
+}
+
+.portada img {
+  width: 100%;
+}
+
+.presentacion {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.whats {
+  background: none;
+  border: 2px #25D366 solid;
+  border-radius: 30px;
+  padding: 8px 30px;
+}
+
+.whats:hover {
+  background: #25D366;
+  color: #fff;
+}
+
+.columnas {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.imagenesPrincipal {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.imagenesPrincipal img {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about {
+  text-align: center;
+  font-size: 22px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.aboutBoton {
+  border: 2px rgb(41,208,231) solid;
+  color: rgb(41,208,231);
+  border-radius: 30px;
+  padding: 8px 30px;
+  background: none;
+  font-size: 18px;
+}
+
+.aboutBoton:hover {
+  background: rgb(41,208,231);
+  color: #fff;
+}
+
+.presGaleria {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 80px;
+}
+
+.insta {
+  background: none;
+  border: 2px rgb(207,0,99) solid;
+  border-radius: 30px;
+  padding: 8px 30px;
+  color: rgb(207,0,99);
+}
+
+.insta:hover {
+  background: rgb(207,0,99);
+  color: #fff;
+}
+
+#navcol-1 i {
+  font-size: 30px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.AnimPortada img {
+  width: 20%;
+}
+
+.AnimPortada {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background: linear-gradient(-45deg, #2c0b13, #cf483f, #c23f4c, #5a3967, #4c3058);
+  background-size: 400% 400%;
+  animation: change 8s ease-in-out infinite;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.movingServices {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.movingServices img {
+  width: 95%;
+}
+
+.packingServices {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.packingServices img {
+  width: 95%;
+}
+
+.junkRemoval {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.junkRemoval img {
+  width: 95%;
+}
+
+.videos {
+  text-align: center;
+}
+
